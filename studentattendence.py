@@ -1,6 +1,6 @@
 import sys
-total_days=int (input ("enter total working days"))
-present_days=int (input ("enter present days "))
+total_days=int (sys.argv[1])
+present_days=int (sys.argv[2])
 if total_days<= 0:
     print("total_days must be grether than zero:")
 elif present_days<0 or present_days> total_days:
