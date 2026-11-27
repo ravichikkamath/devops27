@@ -1,3 +1,4 @@
+import sys
 total_days=int (input ("enter total working days"))
 present_days=int (input ("enter present days "))
 if total_days<= 0:
