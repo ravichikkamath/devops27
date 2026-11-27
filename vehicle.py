@@ -12,3 +12,4 @@ else:
     print("Vehicle number:", vehicle_number)
     print("Parking duration:", hours, "hours")
     print("Total parking fee: Rs.", fee)
+    print("Thank you for using our parking service!")
